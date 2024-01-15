@@ -30,7 +30,7 @@ final class BookingScreenViewModel: ObservableObject {
                           "passportValidityPeriodValidation": true]
     
     func getData() {
-        APIService.getData(BookingModel.self, url: "https://run.mocky.io/v3/63866c74-d593-432c-af8e-f279d1a8d2ff") { result in
+        APIService.getData(BookingModel.self, url: APIUrls.booking.url) { result in
             switch result {
                 case .success(let data):
                     self.bookingModel = data
@@ -102,7 +102,7 @@ final class BookingScreenViewModel: ObservableObject {
             }
         }
         validationArray.forEach{ dict in
-            for (key, value) in dict {
+            for (_, value) in dict {
                 if value == false {
                     sum += 1
                 }

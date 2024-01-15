@@ -6,7 +6,7 @@ final class HotelScreenViewModel: ObservableObject {
     @Published var images: [String] = []
     
     func getData() {
-        APIService.getData(HotelModel.self, url: "https://run.mocky.io/v3/d144777c-a67f-4e35-867a-cacc3b827473") { result in
+        APIService.getData(HotelModel.self, url: APIUrls.hotelInfo.url) { result in
             switch result {
                 case .success(let data):
                     self.hotelModel = data

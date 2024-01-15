@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC24CA512B4D67A4000E510F /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24CA502B4D67A4000E510F /* NetworkConstants.swift */; };
 		CC509A722B3AA999002F383A /* BookingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC509A712B3AA999002F383A /* BookingAppApp.swift */; };
 		CC509A742B3AA999002F383A /* HotelScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC509A732B3AA999002F383A /* HotelScreenView.swift */; };
 		CC509A762B3AA99A002F383A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC509A752B3AA99A002F383A /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC24CA502B4D67A4000E510F /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		CC509A6E2B3AA999002F383A /* BookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC509A712B3AA999002F383A /* BookingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAppApp.swift; sourceTree = "<group>"; };
 		CC509A732B3AA999002F383A /* HotelScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelScreenView.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			children = (
 				CC509A842B3B08E7002F383A /* NetworkManager.swift */,
 				CC509A892B3B092D002F383A /* CustomErrors.swift */,
+				CC24CA502B4D67A4000E510F /* NetworkConstants.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC24CA512B4D67A4000E510F /* NetworkConstants.swift in Sources */,
 				CC509A8C2B3B0966002F383A /* HotelModel.swift in Sources */,
 				CCD7EF3B2B4559230031AB17 /* TourInfoView.swift in Sources */,
 				CC509AAD2B3EF019002F383A /* BookingScreenViewModel.swift in Sources */,
