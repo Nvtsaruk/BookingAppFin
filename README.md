@@ -23,13 +23,11 @@
 
 ## About The Project
 
-| Main Screen | Main Screen 2 | User details | Playlist details |
+| Main Screen | Main Screen 2 | Hotel Room Screen | Booking Screen |
 | --- | --- | --- | --- |
-| <img src="Images/MainScreen.png" alt="Main screen"> | <img src="Images/MainScreen2.png" alt="Main screen 2"> | <img src="Images/UserDetails.png" alt="User details"> | <img src="Images/PlaylistDetails.png" alt="Playlist details"> |
-| Artist details | Album details | Search page | Search categories |
-| <img src="Images/ArtistDetails.png" alt="Artist details"> | <img src="Images/AlbumDetails.png" alt="Album details"> | <img src="Images/SearchPage.png" alt="Search page"> | <img src="Images/SearchCategories.png" alt="Search categories"> |
-| My media | Compact player | Full player | Add\create playlist |
-| <img src="Images/MyMedia.png" alt="My media"> | <img src="Images/CompactPlayer.png" alt="Compact player"> | <img src="Images/FullPlayer.png" alt="Full player"> | <img src="Images/AddToPlaylist.png" alt="Add\create playlist"> |
+| <img src="Images/MainScreen.png" alt="Main screen"> | <img src="Images/MainScreen2.png" alt="Main screen 2"> | <img src="Images/HotelRoomScreen.png" alt="Hotel Room Screen"> | <img src="Images/BookingScreen.png" alt="Booking screen"> |
+| Booking Screen 2 | Booking Screen Validation | Payment Screen | 
+| <img src="Images/BookingScreen2.png" alt="Booking Screen 2"> | <img src="Images/BookingScreenValidation.png" alt="Booking Screen Validation"> | <img src="Images/PaymentScreen.png" alt="Payment Screen"> |
 
 <br>
 <p>An iOS app that visually clones Spotify's app and consumes the official Spotify's Web API to show(and play) songs, artists and more. It was made as final project for IT-Academy iOS course.
