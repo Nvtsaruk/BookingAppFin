@@ -30,32 +30,23 @@
 | <img src="Images/BookingScreen2.png" alt="Booking Screen 2"> | <img src="Images/BookingScreenValidation.png" alt="Booking Screen Validation"> | <img src="Images/PaymentScreen.png" alt="Payment Screen"> |
 
 <br>
-<p>An iOS app that visually clones Spotify's app and consumes the official Spotify's Web API to show(and play) songs, artists and more. It was made as final project for IT-Academy iOS course.
-
-Due to some limitations from Spotify WEB API, this app can play only 30 seconds of song. Some songs don't even have such preview, so I had to remove them.
-
-Instead of using Spotify user playlist feature, I saved playlists to local database using Realm.
+<p>An iOS Booking app. It was made as test project.
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built With
 
-<p>This app was build using MVVM-C architecture. Frameworks were integrated with Swift Package Manger. I've used Observer and Delegate paterns.</p>
+<p>This app was build using MVVM-C architecture and SwiftUI. Frameworks were integrated with Swift Package Manger.</p>
 <br>
 <ul>
-    <li>Keychain</li>
-    <li>UIKit</li>
-    <li>AVFoundation</li>
+    <li>SwiftUI</li>
     <li>Alamofire</li>
-    <li>Realm</li>
-    <li>SDWebImage</li>
-    <li>Caching</li>
+    <li>WrappingHStack</li>
     <li>Dependency Injection</li>
     <li>XCode Instruments</li>
 </ul>
 
-<p>Alamofire was used for getting and parsing data from Spotify WEB API, Realm for storing user playlists locally. SDWebImage was used for geting images by passing url to it and cache images for later use.
-Cached images were used for generating average color and then passing it to generate gradient for background</p>
+<p>Alamofire was used for getting and parsing data from mocky.io, 
 
 ## Contact
 My [LinkedIn](https://www.linkedin.com/in/nicktsaruk/)
