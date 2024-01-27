@@ -23,9 +23,9 @@
 
 ## About The Project
 
-| Main Screen | User profile | User details | Playlist details |
+| Main Screen | Main Screen 2 | User details | Playlist details |
 | --- | --- | --- | --- |
-| <img src="Images/MainScreen.png" alt="Main screen"> | <img src="Images/UserProfile.png" alt="User profile"> | <img src="Images/UserDetails.png" alt="User details"> | <img src="Images/PlaylistDetails.png" alt="Playlist details"> |
+| <img src="Images/MainScreen.png" alt="Main screen"> | <img src="Images/MainScreen2.png" alt="Main screen 2"> | <img src="Images/UserDetails.png" alt="User details"> | <img src="Images/PlaylistDetails.png" alt="Playlist details"> |
 | Artist details | Album details | Search page | Search categories |
 | <img src="Images/ArtistDetails.png" alt="Artist details"> | <img src="Images/AlbumDetails.png" alt="Album details"> | <img src="Images/SearchPage.png" alt="Search page"> | <img src="Images/SearchCategories.png" alt="Search categories"> |
 | My media | Compact player | Full player | Add\create playlist |
