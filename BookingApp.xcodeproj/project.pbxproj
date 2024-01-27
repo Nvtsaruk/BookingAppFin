@@ -40,6 +40,7 @@
 		CCD7EF422B457DD30031AB17 /* CustomerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD7EF412B457DD30031AB17 /* CustomerInfoView.swift */; };
 		CCD7EF442B45A1F50031AB17 /* TouristView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD7EF432B45A1F50031AB17 /* TouristView.swift */; };
 		CCD7EF462B45A5B20031AB17 /* TourSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD7EF452B45A5B20031AB17 /* TourSummaryView.swift */; };
+		CCE8E2322B65437E0013AEBD /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8E2312B65437E0013AEBD /* RoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		CCD7EF412B457DD30031AB17 /* CustomerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerInfoView.swift; sourceTree = "<group>"; };
 		CCD7EF432B45A1F50031AB17 /* TouristView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristView.swift; sourceTree = "<group>"; };
 		CCD7EF452B45A5B20031AB17 /* TourSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourSummaryView.swift; sourceTree = "<group>"; };
+		CCE8E2312B65437E0013AEBD /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			children = (
 				CC509A922B3B0D60002F383A /* ImageSliderView.swift */,
 				CCD7EF352B445AAA0031AB17 /* HotelInfoView.swift */,
+				CCE8E2312B65437E0013AEBD /* RoomView.swift */,
 				CCD7EF3C2B4559EA0031AB17 /* HotelRatingView.swift */,
 				CCD7EF332B4457240031AB17 /* HotelMainDescription.swift */,
 				CCD7EF432B45A1F50031AB17 /* TouristView.swift */,
@@ -369,6 +372,7 @@
 				CC509A932B3B0D60002F383A /* ImageSliderView.swift in Sources */,
 				CCD7EF422B457DD30031AB17 /* CustomerInfoView.swift in Sources */,
 				CCD7EF322B44551E0031AB17 /* AboutHotelView.swift in Sources */,
+				CCE8E2322B65437E0013AEBD /* RoomView.swift in Sources */,
 				CC509AAB2B3EECCC002F383A /* BookingScreen.swift in Sources */,
 				CCD7EF342B4457240031AB17 /* HotelMainDescription.swift in Sources */,
 			);
